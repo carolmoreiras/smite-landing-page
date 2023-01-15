@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <script src="index.js" defer></script>
   <title>Projeto Intro Web - Smite</title>
 </head>
 <body>
@@ -25,12 +26,29 @@
 
   </header>
 
-  <main>
-    <div>
-      <input type="text" placeholder="Pesquisar...">
-      <input type="button" value="Buscar">
+  <main class="main-container">
+    <div class="search-container">
+      <input id="search" class="search-input" type="text" placeholder="Pesquisar...">
+      <input onclick="searchGod()" class="primary-button" type="button" value="Buscar">
     </div>
+
+    <section>
+      <ul id="search-result" class="result-container">
+        
+      </ul>
+    </section>
   </main>
   
+  <footer>
+    <div class="footer">
+      <p>Projeto de Carol Moreira</p>
+      <p>Turma Conway</p>
+      <div class="labenu-container">
+        <p>Labenu</p>
+        <img class="coracao" src="/assets/coracao.webp" alt="">
+      </div>   
+    </div> 
+    
+  </footer>
 </body>
 </html>
