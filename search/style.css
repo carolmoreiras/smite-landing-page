@@ -9,7 +9,7 @@
 }
 
 .logo img{
-  width: 240px;
+  width: 180px;
 }
 
 .bg-nav {
@@ -42,6 +42,48 @@
   font-size: 24px;
 }
 
+.box-nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 32px;
+  width: 100%;
+  padding: 8px 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin: 32px 0;
+  gap: 10px;
+}
+
+.search-input {
+  border-radius: 20px;
+  border-style: none;
+  padding: 0 16px;
+}
+
+.primary-button {
+  background: #01759d;
+	color: white;
+	border-style: none;
+  height: 36px;
+	width: 100px;
+	text-shadow: none;
+  border-radius: 20px;
+	box-shadow: 5px 5px 5px gray;
+}
+
+.primary-button:hover {
+  background: #016ABC;
+	color: #fff;
+	border: 1px solid #eee;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px #eee;
+	text-shadow: none;
+}
+
 body{
   background-image: url(/assets/bkg.webp);
   background-repeat: no-repeat;
@@ -51,11 +93,58 @@ body{
   overflow-x: hidden;
 }
 
-.box-nav {
+.card {
   display: flex;
-  justify-content: space-between;
-  margin: 0 32px;
+  flex-direction: column;
+  width: 200px;
+  color: white;
+  border: 1px solid #49422b;
+}
+
+.card img {
   width: 100%;
-  padding: 16px 0;
-  font-family: 'Montserrat', sans-serif;
+}
+
+.card-content {
+  flex-grow: 1;
+  border-top: 1px solid #49422b;
+  text-align: center;
+  background-color: #04013eba;
+}
+
+.result-container {
+  display: flex;
+  margin: 32px;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.main-container {
+  min-height: 80vh;
+}
+
+.footer {
+  width: 100vw;
+  height: 80px;
+  background-color: #04013e;
+  background-image: -webkit-linear-gradient(left, #04013e 0%, #01759d 100%); 
+  background-image: linear-gradient(to right, #04013e 0%, #01759d 100%);  
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  line-height: 22px;
+  padding: 6px 0;
+  position: sticky;
+  bottom: 0;
+}
+
+.labenu-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.coracao {
+  width: 24px;
+  margin-left: 10px;
 }
