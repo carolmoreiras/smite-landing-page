@@ -1,9 +1,9 @@
 
  const zeus = {
   nome: "Zeus",
-  panteao: "Grécia",
+  panteao: "Greek",
   free: false,
-  classe: "mago",
+  classe: "Magical",
   imagesrc: "/assets/gods-cards/zeus.jpg",
   favorCost: 5500,
   habilidades: ["Overcharge", "Chain Lightning", "Aegis Assault", "Detonate Charge", "Lightning Storm"]
@@ -11,9 +11,9 @@
 
 const poseidon = {
   nome: "Poseidon",
-  panteao: "Grécia",
+  panteao: "Greek",
   free: true,
-  classe: "mago",
+  classe: "Magical",
   imagesrc: "/assets/gods-cards/poseidon.webp",
   favorCost: 0,
   habilidades: ["Changing Tides", "Tidal Surge", "Trident", " Whirlpool", "Release the Kraken!"]
@@ -160,13 +160,14 @@ createCards(deuses)
 
 const searchGod = () => {
   const searchValue = document.getElementById("search").value
+  document.getElementById("search-result").innerHTML = ""
 
   if (searchValue === "") {
     alert("Faça uma busca válida")
+    createCards(deuses)
     return
   } 
 
-  document.getElementById("search-result").innerHTML = ""
   const filteredGods = deuses.filter(deus => deus.nome.toLowerCase() === searchValue.toLowerCase())
   
   if (filteredGods.length) {
@@ -178,3 +179,11 @@ const searchGod = () => {
  
 }
 
+const inputElement = document.getElementById("search")
+
+
+inputElement.addEventListener("keypress", event => {
+  if(event.key === 'Enter') {
+    searchGod()
+  }
+});

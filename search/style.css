@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+a {
+  cursor: url(/assets/images/cursor-pointer.png), pointer;
+}
+
 .logo {
   margin-left: 60px;
 }
@@ -39,8 +43,19 @@
 
 .menu-nav li {
   color: white;
-  font-size: 24px;
+  font-size: 18px;
+  
 }
+
+.menu-nav li::before{
+  content: ' / ';
+  margin: 0 10px;
+  color: rgba(255, 255, 255,0.5);
+}
+
+.menu-nav li:first-child::before{
+  display: none;
+} 
 
 .box-nav {
   display: flex;
@@ -52,36 +67,41 @@
 }
 
 .search-container {
-  display: flex;
-  justify-content: center;
-  margin: 32px 0;
+ 
+  position: relative;
+  width: 400px;
+  margin: 32px auto;
   gap: 10px;
 }
 
 .search-input {
+  height: 42px;
   border-radius: 20px;
   border-style: none;
   padding: 0 16px;
+  width: 400px;
 }
 
 .primary-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: #01759d;
 	color: white;
 	border-style: none;
-  height: 36px;
-	width: 100px;
+  height: 42px;
+	width: 80px;
 	text-shadow: none;
   border-radius: 20px;
-	box-shadow: 5px 5px 5px gray;
+	position: absolute;
+  right: 0px;
+  top: 0;
 }
 
 .primary-button:hover {
   background: #016ABC;
-	color: #fff;
 	border: 1px solid #eee;
-	border-radius: 20px;
-	box-shadow: 5px 5px 5px #eee;
-	text-shadow: none;
+  cursor: url(/assets/images/cursor-pointer.png), pointer;
 }
 
 body{
@@ -91,6 +111,7 @@ body{
   background-position: center;
   background-attachment: fixed;
   overflow-x: hidden;
+  cursor: url(/assets/images/cursor.png), auto;
 }
 
 .card {
@@ -99,6 +120,10 @@ body{
   width: 200px;
   color: white;
   border: 1px solid #49422b;
+}
+
+.card h3{
+  font-family: 'Montserrat', sans-serif;
 }
 
 .card img {
@@ -148,3 +173,15 @@ body{
   width: 24px;
   margin-left: 10px;
 }
+
+.menu-nav a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.primary-button img {
+  
+  width: 28px;
+  height: 28px;
+}
+

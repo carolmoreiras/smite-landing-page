@@ -1,0 +1,150 @@
+.box-nav {
+  box-sizing: initial !important;
+  margin-top: -85px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-bar {
+  width: 100%;
+  height: 0px;
+  position: relative;
+  box-shadow: 20px 17px 27px rgba(0, 0, 0, 0.15);
+}
+   
+.nav-bar::before{
+  content: '';
+  display: block;
+}
+ 
+.inner{
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  right: 0;
+  overflow: hidden;
+  background-color: #04013e;
+  background-image: -webkit-linear-gradient(left, #04013e 0%, #01759d 100%); 
+  background-image: linear-gradient(to right, #04013e 0%, #01759d 100%);  
+}
+
+.active{
+  top: 80px!important;
+  position: relative;
+  transition: all .3s;
+}
+
+.nav-list{
+  float: right;
+  list-style-type: none;
+  line-height: 6.2;
+  padding: 0;
+  margin: 0;
+  transition: all .3s;
+  position: relative;
+  top: 0;
+}
+
+.nav-list li{
+  display: inline-block;
+  margin: 0;
+}
+
+.nav-list li::before{
+  content: ' / ';
+  margin: 0 10px;
+  color: rgba(255, 255, 255,0.5);
+}
+
+.nav-list li:first-child::before{
+  display: none;
+} 
+
+.search{
+  width: 120px;
+  height: 0px;
+  float: right;
+  color: #fff;
+  font-size: 18px;
+  border-bottom: 100px solid rgba(0,0,0,0.1);
+  border-left: 40px solid transparent;
+  position: relative;
+  transition: .3s;
+}
+  
+.search::before {
+  content: '';
+}
+  
+.search:hover{
+  border-bottom: 100px solid;
+  border-bottom: 100px solid rgba(0,0,0,0.3);
+}
+
+
+.nova-search{
+  position: relative;
+  left: 25px;
+  top: 38px;
+}
+
+.nova-search img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 28px;
+  height: 28px;
+}
+
+input[type=search]{
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #fff;
+}
+
+input.search-box {
+  position: absolute;
+  font-size: 16px;
+  color: #fff;
+  top: -100px;
+  width: 320px;
+  right: 130px;
+  transition: all .3s;
+  margin-top: 20px;
+} 
+
+.search-box-active{
+  top: 15px!important;
+  transition: all .3s;
+}
+
+input:focus{
+  outline: none;
+}
+
+input::-webkit-input-placeholder {
+  color: #fff;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  height: 1px;
+  width: 15px;
+  background: transparent;
+  border-radius: 50%;
+}  
+
+input::content {
+  color: #fff;
+  font-weight: bold;
+  font-size: 21px;
+  position: absolute;
+  top: -10px;
+}
+
+.nav-list a{
+  color: #fff;
+  text-decoration: none;
+}

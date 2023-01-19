@@ -1,0 +1,85 @@
+
+.cards-container {
+    display:flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.img-container{
+    width: 60px;
+    height: 208px;
+    overflow: hidden;
+    z-index: 10;
+}
+
+.img-mirror{
+    z-index: -100;
+    margin-top: -100px;
+    width: 120%;
+    margin-left: -160px;
+    overflow: hidden;
+}
+
+.img-mirror img{
+    width: 100%; 
+    transform:perspective(600px) rotateX(70deg); 
+
+}
+
+.logo{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    z-index: 100;
+    width: 380px;
+    translate: -50%;
+    z-index: 200;
+}
+
+.logo img{
+    width: 380px;
+}
+
+.img-container img{
+    margin-left: -80%;
+}
+
+.img-container:hover{
+    overflow: initial;
+    transform: scale(1.5);
+    transition: transform 500ms;
+    z-index: 100;
+}
+
+.cards-container img{
+    display:flex;
+    width: 200px;
+}
+
+.image{
+    /* width: 200px; */
+    padding: 16px;
+}
+
+.cards-top{
+    display: flex;
+    width: 100%;
+    padding: 0 10%;
+}
+
+.cards-top-container{
+   position: relative; 
+}
+
+.cards-top-bg{
+    position: absolute;
+    width: 100%;
+    height: 208px;
+    z-index: -1;
+    filter: blur(1px);
+    background-image: url("/assets/images/smite-wallpaper-20.jpg");
+}
+
+.cards-top img{
+    width: 160px;
+}
