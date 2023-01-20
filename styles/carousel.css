@@ -130,7 +130,8 @@
     height: 1px;
     margin: 1rem;
   }
-    .title-4 {
+
+  .title-4 {
     color: white;
     letter-spacing:  0.5em;
     font-family: 'Acme', sans-serif;
@@ -143,9 +144,9 @@
   }
 
   .title-4::after {
-      background: linear-gradient(90deg,#85784a 60%,transparent);
-      margin-left: 2rem;
-      margin-right: 0;
+    background: linear-gradient(90deg,#85784a 60%,transparent);
+    margin-left: 2rem;
+    margin-right: 0;
   }
 
   .title-4::before {
@@ -162,23 +163,12 @@
     margin: 1rem;
   }
 
-  .carousel-container {
-    max-width: 1200px;
-    height: 400px;
-    margin-top: 50px;
-    margin-bottom: 40px;
-    margin-left: 75px;
-    justify-content: center;
-    align-items: center;
-
-  }
-
-  .carousel-container-bottom {
+  .carousel-container, .carousel-container-bottom {
     max-width: 1200px;
     height: 400px;
     margin-top: 40px;
-    margin-bottom: 40px; 
-    margin-left: 80px;
+    margin-bottom: 40px;
+    margin-left: 75px;
     justify-content: center;
     align-items: center;
   }
@@ -225,10 +215,6 @@
   
   .carousel__viewport {
     position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
     display: flex;
     overflow-x: scroll;
     counter-reset: item;
@@ -331,8 +317,7 @@
     right: 16px;
   }
 
-  .achilles {
-    background-image: url(/assets/images/carousel-imgs/Achilles.webp);
+  .container-carousel-gods {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -340,11 +325,7 @@
     height: 100%;
   }
 
-  .carousel__viewport a {
-    text-decoration: none;
-  }
-
-  .achilles h3 {
+  .container-carousel-gods h3 {
     display: flex;
     justify-content: center;
     font-family: 'Prosto One', cursive;
@@ -354,183 +335,45 @@
     text-decoration: none;
   }
 
-  .achilles p {
+  .container-carousel-gods p {
     text-align: center;
     font-size: 40px;
     color: #ffffff;
     font-weight: 500;
     font-family: 'Prosto One', cursive;
     margin-top: 300px;
+  }
+
+  .achilles {
+    background-image: url(/assets/images/carousel-imgs/Achilles.webp);  
+  }
+
+  .carousel__viewport a {
+    text-decoration: none;
   }
 
   .discordia {
     background-image: url(/assets/images/carousel-imgs/discordia-header.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 100%;
-  }
-
-  .discordia h3 {
-    text-shadow: 0 0 3rem #000, 0 0 3rem #000;
-    z-index: 10;
-    font-family: 'Prosto One', cursive;
-    color: #fff;
-    text-align: center;
-    font-size: 36px;
-    text-decoration: none;
-  }
-
-  .discordia p {
-    text-align: center;
-    font-size: 40px;
-    color: #ffffff;
-    font-weight: 500;
-    font-family: 'Prosto One', cursive;
-    margin-top: 300px;
   }
 
   .hercules {
     background-image: url(/assets/images/carousel-imgs/Hercules.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 100%;
-  }
-
-  .hercules h3 {
-    text-shadow: 0 0 3rem #000, 0 0 3rem #000;
-    z-index: 10;
-    font-family: 'Prosto One', cursive;
-    color: #fff;
-    text-align: center;
-    font-size: 36px;
-    text-decoration: none;
-  }
-
-  .hercules p {
-    text-align: center;
-    font-size: 40px;
-    color: #ffffff;
-    font-weight: 500;
-    font-family: 'Prosto One', cursive;
-    margin-top: 300px;
   }
 
   .aphrodite {
     background-image: url(/assets/images/carousel-imgs/Aphrodite.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 100%;
   }
 
-  .aphrodite h3 {
-    text-shadow: 0 0 3rem #000, 0 0 3rem #000;
-    z-index: 10;
-    font-family: 'Prosto One', cursive;
-    color: #fff;
-    text-align: center;
-    font-size: 36px;
-    text-decoration: none;
-  }
-
-  .aphrodite p {
-    text-align: center;
-    font-size: 40px;
-    color: #ffffff;
-    font-weight: 500;
-    font-family: 'Prosto One', cursive;
-    margin-top: 300px;
-  }
-  
   .zeus {
     background-image: url(/assets/images/carousel-imgs/Zeus.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 100%;
-  }
-
-  .zeus h3 {
-    text-shadow: 0 0 3rem #000, 0 0 3rem #000;
-    z-index: 10;
-    font-family: 'Prosto One', cursive;
-    color: #fff;
-    text-align: center;
-    font-size: 36px;
-    text-decoration: none;
-  }
-
-  .zeus p {
-    text-align: center;
-    font-size: 40px;
-    color: #ffffff;
-    font-weight: 500;
-    font-family: 'Prosto One', cursive;
-    margin-top: 300px;
   }
 
   .mulan {
     background-image: url(/assets/images/carousel-imgs/Mulan.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 100%;
-  }
-
-  .mulan h3 {
-    text-shadow: 0 0 3rem #000, 0 0 3rem #000;
-    z-index: 10;
-    font-family: 'Prosto One', cursive;
-    color: #fff;
-    text-align: center;
-    font-size: 36px;
-    text-decoration: none;
-  }
-
-  .mulan p {
-    text-align: center;
-    font-size: 40px;
-    color: #ffffff;
-    font-weight: 500;
-    font-family: 'Prosto One', cursive;
-    margin-top: 300px;
   }
 
   .all-gods {
     background-image: url(/assets/images/carousel-imgs/all_gods.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 100%;
-  }
-
-  .itens {
-    background-image: url(/assets/images/Potion.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 100%;
-  }
-
-  .itens h3 {
-    text-align: center;
-    position: relative;
-    top: 300px;
-  }
-
-  .news-1, .news-2, .news-3 h3 {
-      text-align: center;
-      /* position: relative; */
-      top: 300px;
   }
 
   .container-carousel-flex h3 {
@@ -567,93 +410,50 @@
   
   }
 
+  .carousel-container-bottom p {
+    margin-top: 300px;
+  }
+
+  .itens {
+    background-image: url(/assets/images/Potion.webp); 
+  }
+
   .relics {
     background-image: url(/assets/images/reliquia.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 100%;
   }
 
   .consumables {
     background-image: url(/assets/images/consumablewebp.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 100%;
   }
-
 
   .news-1 {
     background-image: url(/assets/images/creator-cup-header.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 100%;
   }
 
   .news-2 {
       background-image: url(/assets/images/UpdateNotes.webp);
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
-      width: 100%;
-      height: 100%;
   }
 
   .news-3 {
       background-image: url(/assets/images/Goosening-GemSale.webp);
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
-      width: 100%;
-      height: 100%;
   }
-
+  
   .conquest {
     background-image: url(/assets/images/conquest-header.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 100%;
   }
 
   .arena {
     background-image: url(/assets/images/-arena-oval.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 100%;
   }
 
   .assault {
     background-image: url(/assets/images/assault.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 100%;
   }
 
   .joust {
       background-image: url(/assets/images/joust.jpg);
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
-      width: 100%;
-      height: 100%;
   }
 
   .slash {
     background-image: url(/assets/images/slash.webp);
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
-      width: 100%;
-      height: 100%;
   }

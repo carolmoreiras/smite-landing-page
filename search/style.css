@@ -8,19 +8,12 @@ a {
   cursor: url(/assets/images/cursor-pointer.png), pointer;
 }
 
-.logo {
-  margin-left: 60px;
-}
-
 .logo img{
   width: 180px;
 }
 
 .bg-nav {
-
-  display: flex;
   width: 100vw;
-  
   background-color: #04013e;
   background-image: -webkit-linear-gradient(left, #04013e 0%, #01759d 100%); 
   background-image: linear-gradient(to right, #04013e 0%, #01759d 100%);  
@@ -28,9 +21,14 @@ a {
 
 .box-nav {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 8px 32px;
+  font-family: 'Montserrat', sans-serif;
   align-items: center;
-  justify-content: center;
- 
 }
 
 .menu-nav {
@@ -57,19 +55,10 @@ a {
   display: none;
 } 
 
-.box-nav {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 32px;
-  width: 100%;
-  padding: 8px 0;
-  font-family: 'Montserrat', sans-serif;
-}
-
 .search-container {
- 
   position: relative;
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
   margin: 32px auto;
   gap: 10px;
 }
@@ -79,7 +68,7 @@ a {
   border-radius: 20px;
   border-style: none;
   padding: 0 16px;
-  width: 400px;
+  width: 100%;
 }
 
 .primary-button {
@@ -139,7 +128,9 @@ body{
 
 .result-container {
   display: flex;
-  margin: 32px;
+  margin: 32px auto;
+  max-width: 1400px;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 16px;
 }
@@ -183,5 +174,20 @@ body{
   
   width: 28px;
   height: 28px;
+}
+
+@media (max-width: 800px) {
+  .box-nav {
+    flex-direction: column;
+  }
+  .menu-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+.menu-nav li::before{
+  display: none;
+}
+
 }
 
