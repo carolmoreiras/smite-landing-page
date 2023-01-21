@@ -77,7 +77,7 @@
     height: 208px;
     z-index: -1;
     filter: blur(1px);
-    background-image: url("/assets/images/smite-wallpaper-20.jpg");
+    background-image: url("/smite-landing-page/assets/images/smite-wallpaper-20.jpg");
 }
 
 .cards-top img{

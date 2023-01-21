@@ -306,13 +306,13 @@
   }
 
   .carousel__prev {
-    background-image: url(/assets/icons/arrow_left.svg);
+    background-image: url(/smite-landing-page/assets/icons/arrow_left.svg);
     left: 16px;
     background-position: right 10% bottom 50%;
   }
   
   .carousel__next {
-    background-image: url(/assets/icons/arrow_rigth.svg);
+    background-image: url(/smite-landing-page/assets/icons/arrow_rigth.svg);
     background-position: center;
     right: 16px;
   }
@@ -345,7 +345,7 @@
   }
 
   .achilles {
-    background-image: url(/assets/images/carousel-imgs/Achilles.webp);  
+    background-image: url(/smite-landing-page/assets/images/carousel-imgs/Achilles.webp);  
   }
 
   .carousel__viewport a {
@@ -353,27 +353,27 @@
   }
 
   .discordia {
-    background-image: url(/assets/images/carousel-imgs/discordia-header.webp);
+    background-image: url(/smite-landing-page/assets/images/carousel-imgs/discordia-header.webp);
   }
 
   .hercules {
-    background-image: url(/assets/images/carousel-imgs/Hercules.webp);
+    background-image: url(/smite-landing-page/assets/images/carousel-imgs/Hercules.webp);
   }
 
   .aphrodite {
-    background-image: url(/assets/images/carousel-imgs/Aphrodite.webp);
+    background-image: url(/smite-landing-page/assets/images/carousel-imgs/Aphrodite.webp);
   }
 
   .zeus {
-    background-image: url(/assets/images/carousel-imgs/Zeus.webp);
+    background-image: url(/smite-landing-page/assets/images/carousel-imgs/Zeus.webp);
   }
 
   .mulan {
-    background-image: url(/assets/images/carousel-imgs/Mulan.webp);
+    background-image: url(/smite-landing-page/assets/images/carousel-imgs/Mulan.webp);
   }
 
   .all-gods {
-    background-image: url(/assets/images/carousel-imgs/all_gods.jpg);
+    background-image: url(/smite-landing-page/assets/images/carousel-imgs/all_gods.jpg);
   }
 
   .container-carousel-flex h3 {
@@ -415,45 +415,45 @@
   }
 
   .itens {
-    background-image: url(/assets/images/Potion.webp); 
+    background-image: url(/smite-landing-page/assets/images/Potion.webp); 
   }
 
   .relics {
-    background-image: url(/assets/images/reliquia.jpg);
+    background-image: url(/smite-landing-page/assets/images/reliquia.jpg);
   }
 
   .consumables {
-    background-image: url(/assets/images/consumablewebp.webp);
+    background-image: url(/smite-landing-page/assets/images/consumablewebp.webp);
   }
 
   .news-1 {
-    background-image: url(/assets/images/creator-cup-header.webp);
+    background-image: url(/smite-landing-page/assets/images/creator-cup-header.webp);
   }
 
   .news-2 {
-      background-image: url(/assets/images/UpdateNotes.webp);
+      background-image: url(/smite-landing-page/assets/images/UpdateNotes.webp);
   }
 
   .news-3 {
-      background-image: url(/assets/images/Goosening-GemSale.webp);
+      background-image: url(/smite-landing-page/assets/images/Goosening-GemSale.webp);
   }
   
   .conquest {
-    background-image: url(/assets/images/conquest-header.webp);
+    background-image: url(/smite-landing-page/assets/images/conquest-header.webp);
   }
 
   .arena {
-    background-image: url(/assets/images/-arena-oval.webp);
+    background-image: url(/smite-landing-page/assets/images/-arena-oval.webp);
   }
 
   .assault {
-    background-image: url(/assets/images/assault.jpg);
+    background-image: url(/smite-landing-page/assets/images/assault.jpg);
   }
 
   .joust {
-      background-image: url(/assets/images/joust.jpg);
+      background-image: url(/smite-landing-page/assets/images/joust.jpg);
   }
 
   .slash {
-    background-image: url(/assets/images/slash.webp);
+    background-image: url(/smite-landing-page/assets/images/slash.webp);
   }
