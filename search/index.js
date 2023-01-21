@@ -4,7 +4,7 @@
   panteao: "Greek",
   free: false,
   classe: "Magical",
-  imagesrc: "/assets/gods-cards/zeus.jpg",
+  imagesrc: "/smite-landing-page/assets/gods-cards/zeus.jpg",
   favorCost: 5500,
   habilidades: ["Overcharge", "Chain Lightning", "Aegis Assault", "Detonate Charge", "Lightning Storm"]
 }
@@ -14,7 +14,7 @@ const poseidon = {
   panteao: "Greek",
   free: true,
   classe: "Magical",
-  imagesrc: "/assets/gods-cards/poseidon.webp",
+  imagesrc: "/smite-landing-page/assets/gods-cards/poseidon.webp",
   favorCost: 0,
   habilidades: ["Changing Tides", "Tidal Surge", "Trident", " Whirlpool", "Release the Kraken!"]
 }
@@ -24,7 +24,7 @@ const neith = {
   panteao: "Egyptian",
   free: true,
   classe: "Hunter",
-  imagesrc: "/assets/gods-cards/neith.webp",
+  imagesrc: "/smite-landing-page/assets/gods-cards/neith.webp",
   favorCost: 0,
   habilidades:["Broken Weave", "Spirit Arrow", "Unravel", "Back Flip",  "World Weaver"]
 }
@@ -34,7 +34,7 @@ const aphrodite = {
   panteao: "Greek",
   free: false,
   classe: "Magical",
-  imagesrc: "/assets/gods-cards/aphrodite.webp",
+  imagesrc: "/smite-landing-page/assets/gods-cards/aphrodite.webp",
   favorCost: 5500,
   habilidades:["Kiss", "Back Off!", "Love Birds", "Undying Love",  "Center of Attention"]
 }
@@ -44,7 +44,7 @@ const hades = {
   panteao: "Greek",
   free: false,
   classe: "Magical",
-  imagesrc: "/assets/gods-cards/hades.jpg",
+  imagesrc: "/smite-landing-page/assets/gods-cards/hades.jpg",
   favorCost: 2000,
   habilidades:["Death From Below", "Shroud of Darkness", "Devour Souls", "Pillar of Agony",  "Blight"]
 }
@@ -54,7 +54,7 @@ const bastet = {
   panteao: "Egyptian",
   free: false,
   classe: "Physical",
-  imagesrc: "/assets/gods-cards/bastet.jpg",
+  imagesrc: "/smite-landing-page/assets/gods-cards/bastet.jpg",
   favorCost: 5500,
   habilidades:["Pounce", "Razor Whip", "Ensnaring Claw", "Huntress of Bast",  "Nightstalker"]
 }
@@ -64,7 +64,7 @@ const thor = {
   panteao: "Norse",
   free: false,
   classe: "Physical",
-  imagesrc: "/assets/gods-cards/thor.webp",
+  imagesrc: "/smite-landing-page/assets/gods-cards/thor.webp",
   favorCost: 5500,
   habilidades:["Mjolnir's Attunement", "Tectonic Rift", "Berserker Barrage", "Anvil of Dawn",  "Warrior's Madness"]
 }
@@ -74,7 +74,7 @@ const cupid = {
   panteao: "Roman",
   free: false,
   classe: "Physical",
-  imagesrc: "/assets/gods-cards/cupid.webp",
+  imagesrc: "/smite-landing-page/assets/gods-cards/cupid.webp",
   favorCost: 1500,
   habilidades:["Heart Bomb", "Share the Love", "Flutter", "Fields of Love",  "Lovestruck"]
 }
@@ -84,7 +84,7 @@ const change = {
   panteao: "chinese",
   free: false,
   classe: "Magical",
-  imagesrc: "/assets/gods-cards/change.webp",
+  imagesrc: "/smite-landing-page/assets/gods-cards/change.webp",
   favorCost: 5500,
   habilidades:["Crescent Moon Dance", "Moonlit Waltz", "Moonflower Dance", "Waxing Moon",  "Jade Rabbit"]
 }
@@ -94,7 +94,7 @@ const set = {
   panteao: "egyptian",
   free: false,
   classe: "Physical",
-  imagesrc: "/assets/gods-cards/set.jpg",
+  imagesrc: "/smite-landing-page/assets/gods-cards/set.jpg",
   favorCost: 5500,
   habilidades:["Skewer", "Spawn of Set", "Sandstorm", "Kingslayer",  "Relentless"]
 }
@@ -104,7 +104,7 @@ const nuwa = {
   panteao: "Chinese",
   free: true,
   classe: "Magical",
-  imagesrc: "/assets/gods-cards/nu-wa.jpg",
+  imagesrc: "/smite-landing-page/assets/gods-cards/nu-wa.jpg",
   favorCost: 0,
   habilidades:["Mysterious Fog", "Clay Soldiers", "Shining Metal", "Fire Shards",  "Strength of Wood"]
 }
@@ -114,7 +114,7 @@ const loki = {
   panteao: "Norse",
   free: false,
   classe: "Physical",
-  imagesrc: "/assets/gods-cards/loki.jpg",
+  imagesrc: "/smite-landing-page/assets/gods-cards/loki.jpg",
   favorCost: 5500,
   habilidades:["Vanish", "Agonizing Visions", "SFlurry Strike", "Assassinate",  "Behind You!"]
 }

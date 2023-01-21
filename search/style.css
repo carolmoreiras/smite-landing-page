@@ -5,7 +5,7 @@
 }
 
 a {
-  cursor: url(/assets/images/cursor-pointer.png), pointer;
+  cursor: url(/smite-landing-page/assets/images/cursor-pointer.png), pointer;
 }
 
 .logo img{
@@ -90,17 +90,17 @@ a {
 .primary-button:hover {
   background: #016ABC;
 	border: 1px solid #eee;
-  cursor: url(/assets/images/cursor-pointer.png), pointer;
+  cursor: url(/smite-landing-page/assets/images/cursor-pointer.png), pointer;
 }
 
 body{
-  background-image: url(/assets/bkg.webp);
+  background-image: url(/smite-landing-page/assets/bkg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   overflow-x: hidden;
-  cursor: url(/assets/images/cursor.png), auto;
+  cursor: url(/smite-landing-page/assets/images/cursor.png), auto;
 }
 
 .card {
